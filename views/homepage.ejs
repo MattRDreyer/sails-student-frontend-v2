@@ -1,8 +1,111 @@
 <ol class="breadcrumb">
-    <li><a href="/">Home</a></li>
+
 </ol>
 
 <br/>
 <%- partial ('partials/statusmessage.ejs') %>
 
-Welcome to our small college admin
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+
+<title>College Admin</title>
+
+<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<link href="jumbotron.css" rel="stylesheet">
+
+
+<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+
+</head>
+
+<body>
+
+  </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Welcome to Dreyer University!</h1>
+    <p>"We can get <b>anyone</b> a degree... for less!" <small>&reg;</small></p>
+
+  </div>
+</div>
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Student Section</h2>
+      <p>Want to learn more about our incredible students?  At Dreyer University, we have a diverse and wonderful student body that you will fit right into, no matter what your background or current interests <i>(assuming they align perfectly to ours).</i>  Learn more about our incredible student body that you will love by simply clicking below.</p>
+      <p><a class="btn btn-default" href="manage_students" role="button">Student Section &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Academics</h2>
+      <p>Ever wonder how a car works?  Curious about how to build a computer from the ground up?  Well, we sure aren't.  If you are looking to breeze through classes and get a piece of paper that can land you "the big job" then you've come to the right place! <i> (Depends on your definition of big job.  No job is guaranteed or even likely after attending Dreyer University)</i>.</p>
+      <p><a class="btn btn-default" href="manage_major" role="button">Available Majors &raquo;</a></p>
+   </div>
+    <div class="col-md-4">
+      <h2>Professors</h2>
+      <p>Many people have asked what school has the best professors.  Well it's probably one of those Ivy League places that are all the rage.  But at Dreyer University, we do employ professors, don't you worry!  Our faculty was recently ranked as the 3rd best for 2016!  Click here to meet them! <i>(Ranking limited to Carmel IN based on 3 universities considered in the review)</i>.</p>
+      <p><a class="btn btn-default" href="manage_instructor" role="button">Our Staff &raquo;</a></p>
+    </div>
+  </div>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" style=" width:100%; height: 500px !important;">
+    <div class="item active">
+      <img src="http://az616578.vo.msecnd.net/files/2016/02/14/635910771959424868838817221_hs.jpg"  alt="Happy">
+    </div>
+
+    <div class="item" role="listbox" style=" width:100%; height: 500px !important;">
+      <img src="http://www.parentscountdowntocollegecoach.com/wp-content/uploads/2013/09/o-LEAST-HAPPY-COLLEGES-facebook.jpg" alt="Competent">
+    </div>
+
+    <div class="item" role="listbox" style=" width:100%; height: 500px !important;">
+      <img src="https://static.irs.com/field/image/ConfusedStudent_43.jpg"  alt="Prepared">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+  <footer>
+    <p>&copy; 2017 Dreyer University</p>
+  </footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>

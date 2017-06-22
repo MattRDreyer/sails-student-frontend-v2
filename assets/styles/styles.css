@@ -1,5 +1,10 @@
 body {
     padding-top: 70px;
+    background-image: url ("http://www.bloomu.edu/images/gradschool/college-student-affairs/2015-MaySelfieStick.jpg");
+}
+
+h1 {
+  font: white;
 }
 
 table {
